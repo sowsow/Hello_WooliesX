@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.WebApi", "WooliesX.WebApi\WooliesX.WebApi.csproj", "{9436F054-B41D-4F17-B0A9-CA5AA4207474}"
+	ProjectSection(ProjectDependencies) = postProject
+		{171AAB00-8252-4683-B882-AB7FC2A32091} = {171AAB00-8252-4683-B882-AB7FC2A32091}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Common", "WooliesX.Common\WooliesX.Common.csproj", "{171AAB00-8252-4683-B882-AB7FC2A32091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Tests", "WooliesX.Tests\WooliesX.Tests.csproj", "{68E4459A-197E-4B49-BA14-4A3F74B885B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9436F054-B41D-4F17-B0A9-CA5AA4207474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9436F054-B41D-4F17-B0A9-CA5AA4207474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9436F054-B41D-4F17-B0A9-CA5AA4207474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9436F054-B41D-4F17-B0A9-CA5AA4207474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171AAB00-8252-4683-B882-AB7FC2A32091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171AAB00-8252-4683-B882-AB7FC2A32091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171AAB00-8252-4683-B882-AB7FC2A32091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171AAB00-8252-4683-B882-AB7FC2A32091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E4459A-197E-4B49-BA14-4A3F74B885B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E4459A-197E-4B49-BA14-4A3F74B885B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E4459A-197E-4B49-BA14-4A3F74B885B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E4459A-197E-4B49-BA14-4A3F74B885B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0878AC8F-AD66-4F2B-A8F5-F84173F66B72}
+	EndGlobalSection
+EndGlobal
