@@ -2,9 +2,9 @@
 {
     public enum SortOption
     {
-        Low,    // Low to High Price
+        Low,        // Low to High Price
 
-        High,   // High to Low Price
+        High,       // High to Low Price
 
         Ascending,  // A - Z sort on the Name
 
